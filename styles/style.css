@@ -1,0 +1,70 @@
+:root {
+  --space-cadet: #25283d;
+  --plum: #8f3985;
+  --cultured: #efeff0;
+  --azurex11: #eafffd;
+}
+
+body {
+  background-color: var(--space-cadet);
+  color: var(--azurex11);
+}
+
+#grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 75%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#title-image {
+  grid-column: 1;
+  width: 30em;
+  height: 30em;
+}
+
+#title-text {
+  grid-column: 2;
+  font-family: "Lobster", cursive;
+  font-size: 6em;
+}
+
+strong {
+  font-weight: normal;
+  color: #ff6ec7;
+}
+
+.small-titles {
+  font-family: "Abel", sans-serif;
+}
+
+#subtitle {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+section {
+  font-family: "Nunito", sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  width: 85%;
+}
+
+#adult-title {
+  font-size: 2em;
+  margin-bottom: 0.125em;
+}
+
+#adult-stuff {
+  font-size: 1.35em;
+  margin-top: 0.125em;
+}
+
+li {
+  margin-bottom: 0.75em;
+}
