@@ -1,13 +1,6 @@
-:root {
-  --space-cadet: #25283d;
-  --plum: #8f3985;
-  --cultured: #efeff0;
-  --azurex11: #eafffd;
-}
-
 body {
-  background-color: var(--space-cadet);
-  color: var(--azurex11);
+  background-color: #25283d;
+  color: #eafffd;
 }
 
 #grid-wrapper {
@@ -61,10 +54,21 @@ section {
 }
 
 #adult-stuff {
-  font-size: 1.35em;
+  font-size: 1.4em;
   margin-top: 0.125em;
+  margin-bottom: 2.8em;
 }
 
 li {
-  margin-bottom: 0.75em;
+  margin-bottom: 0.8em;
+}
+
+#most-important-tip {
+  font-size: 1.15em;
+}
+
+#credits {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 0.45%;
 }
