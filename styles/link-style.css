@@ -1,9 +1,9 @@
-a:link {
-  text-decoration: none;
+a:visited {
   color: #eafffd;
 }
 
-a:visited {
+a:link {
+  text-decoration: none;
   color: #eafffd;
 }
 
